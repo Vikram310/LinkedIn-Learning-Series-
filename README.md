@@ -23,7 +23,7 @@
 - Reference:
   - [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning)
 
-[**Day2**]()
+[**Day2**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6922068127300149248-0q96?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
 **💡 Activation Function:**
 
@@ -36,3 +36,15 @@
 - It turns out that the tanh activation usually works better than sigmoid activation function for hidden units because the mean of its output is closer to zero and so it centers the data better for next layer. 
 - The major advantage of tanh is that the negative inputs will be mapped strongly negative and the zero in[puts will be mapped near zero in the tanh graph. 
 - Sigmoid or Tanh Function disadvantage is that if the input is too small or too high, the slope will be near zero which will cause us gradient descent problem. 
+
+[**Day3**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6922417875035049984-99VU?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+**💡 Activation Function:**
+
+- The ReLU (Rectified Linear Unit) function is an activation function that is currently more popular compared to other activation functions in deep learning.
+- When the input is positive, there is no gradient saturation problem as in Sigmoid and Tanh
+- The calculation speed is much faster. The ReLU function has only a linear relationship. Whether it is forward or backward, it is much faster than sigmoid and tanh.
+- The only problem with ReLU is Dead ReLU problem. When the input is negative, ReLU is completely inactive, which means that once a negative number is entered, ReLU will die. In this way, in the forward propagation process, it is not a problem. Some areas are sensitive and some are insensitive. 
+- But in the back propagation process, if you enter a negative number, the gradient will be completely zero, which has the same problem as the sigmoid function and tanh function.
+- Leaky ReLU is An activation function specifically designed to compensate for the dying ReLU problem.
+- The leaky ReLU adjusts the problem of zero gradients for negative value, by giving a very small linear component of x to negative inputs(0.01x). The leak helps to increase the range of the ReLU function. Usually, the value of a is 0.01 or so.
