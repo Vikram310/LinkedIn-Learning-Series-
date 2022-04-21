@@ -48,3 +48,21 @@
 - But in the back propagation process, if you enter a negative number, the gradient will be completely zero, which has the same problem as the sigmoid function and tanh function.
 - Leaky ReLU is An activation function specifically designed to compensate for the dying ReLU problem.
 - The leaky ReLU adjusts the problem of zero gradients for negative value, by giving a very small linear component of x to negative inputs(0.01x). The leak helps to increase the range of the ReLU function. Usually, the value of a is 0.01 or so.
+
+[**Day4**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6922786060552863744-8HUu?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+**💡 Activation Function (ELU and PReLU):**
+
+-  ELU is also proposed to solve the problems of ReLU. In contrast to ReLUs, ELUs have negative values which push the mean of the activations closer to zero. 
+- Mean activations that are closer to zero enable faster learning as they bring the gradient closer to the natural gradient.
+- In contrast to ReLUs, ELUs have negative values which allow them to push mean unit activations closer to zero like batch normalization but with lower computational complexity.  Mean shifts toward zero speed up learning by bringing the normal gradient closer to the unit natural gradient because of a reduced bias shift effect.
+- ELUs saturate to a negative value with smaller inputs and thereby decrease the forward propagated variation and information.
+- One small problem is that it is slightly more computationally intensive.
+- PReLU is also an improved version of ReLU. Here we multiply the z with a parameter aᵢ. So, 
+
+        1. if aᵢ=0, f becomes ReLU
+        2. if aᵢ>0, f becomes leaky ReLU
+        3. if aᵢ is a learnable parameter, f becomes PReLU
+
+- In the negative region, PReLU has a small slope, which can also avoid the problem of ReLU death.
+- Compared to ELU, PReLU is a linear operation in the negative region. Although the slope is small, it does not tend to 0, which is a certain advantage.
