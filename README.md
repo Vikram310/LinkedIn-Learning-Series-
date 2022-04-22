@@ -66,3 +66,26 @@
 
 - In the negative region, PReLU has a small slope, which can also avoid the problem of ReLU death.
 - Compared to ELU, PReLU is a linear operation in the negative region. Although the slope is small, it does not tend to 0, which is a certain advantage.
+
+[**Day5**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6923153672847704064-rIF8?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+**💡Softmax Activation Function:**
+
+- Softmax is used as the activation function for multi-class classification problems where class membership is required on more than two class labels.
+-  For an arbitrary real vector of length K, Softmax can compress it into a real vector of length K with a value in the range (0, 1), and the sum of the elements in the vector is 1.
+-  Softmax is different from the normal max function: the max function only outputs the largest value, and Softmax ensures that smaller values have a smaller probability and will not be discarded directly. It is a “max” that is “soft”; it can be thought to be a probabilistic or “softer” version of the argmax function.
+- The major drawback in the softmax activation function is that it is 
+
+        1. Non-differentiable at zero and ReLU is unbounded.
+        2. The gradients for negative input are zero, which means for activations in that region, the weights are not updated during backpropagation. 
+
+**💡Swish  Activation Function:**
+
+- Swish’s design was inspired by the use of sigmoid functions for gating in LSTMs and highway networks. We use the same value for gating to simplify the gating mechanism, which is called self-gating
+- The advantage of self-gating is that it only requires a simple scalar input, while normal gating requires multiple scalar inputs. This feature enables self-gated activation functions such as Swish to easily replace activation functions that take a single scalar as input (such as ReLU) without changing the hidden capacity or number of parameters.
+- Swish activation function can only be implemented when your neural network is ≥ 40 layers.
+- Advantages:
+
+        1. Unboundedness is helpful to prevent the gradient from gradually approaching 0 during slow training, causing saturation.
+        2. Derivative always >0
+        3. Smoothness also plays an important role in optimization and generalization.  
