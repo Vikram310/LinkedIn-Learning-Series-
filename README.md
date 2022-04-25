@@ -1,4 +1,4 @@
-[**Day1**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6921713172592697344-xstF?utm_source=linkedin_share&utm_medium=member_desktop_web)
+[**Day 1**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6921713172592697344-xstF?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
 **💡 Bias/Variance**: 
 - If a model is underfitting(such as logistic regression of non linear data), it has "high bias". If the model is overfitting, then it has "high variance".
@@ -23,7 +23,7 @@
 - Reference:
   - [**Deep Learning Specialization**](https://www.coursera.org/specializations/deep-learning)
 
-[**Day2**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6922068127300149248-0q96?utm_source=linkedin_share&utm_medium=member_desktop_web)
+[**Day 2**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6922068127300149248-0q96?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
 **💡 Activation Function:**
 
@@ -37,7 +37,7 @@
 - The major advantage of tanh is that the negative inputs will be mapped strongly negative and the zero in[puts will be mapped near zero in the tanh graph. 
 - Sigmoid or Tanh Function disadvantage is that if the input is too small or too high, the slope will be near zero which will cause us gradient descent problem. 
 
-[**Day3**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6922417875035049984-99VU?utm_source=linkedin_share&utm_medium=member_desktop_web)
+[**Day 3**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6922417875035049984-99VU?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
 **💡 Activation Function:**
 
@@ -49,7 +49,7 @@
 - Leaky ReLU is An activation function specifically designed to compensate for the dying ReLU problem.
 - The leaky ReLU adjusts the problem of zero gradients for negative value, by giving a very small linear component of x to negative inputs(0.01x). The leak helps to increase the range of the ReLU function. Usually, the value of a is 0.01 or so.
 
-[**Day4**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6922786060552863744-8HUu?utm_source=linkedin_share&utm_medium=member_desktop_web)
+[**Day 4**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6922786060552863744-8HUu?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
 **💡 Activation Function (ELU and PReLU):**
 
@@ -67,7 +67,7 @@
 - In the negative region, PReLU has a small slope, which can also avoid the problem of ReLU death.
 - Compared to ELU, PReLU is a linear operation in the negative region. Although the slope is small, it does not tend to 0, which is a certain advantage.
 
-[**Day5**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6923153672847704064-rIF8?utm_source=linkedin_share&utm_medium=member_desktop_web)
+[**Day 5**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6923153672847704064-rIF8?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
 **💡Softmax Activation Function:**
 
@@ -89,3 +89,18 @@
         1. Unboundedness is helpful to prevent the gradient from gradually approaching 0 during slow training, causing saturation.
         2. Derivative always >0
         3. Smoothness also plays an important role in optimization and generalization.  
+
+[**Day 6**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6924242722304245761-Pxxx?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+**💡Bias:**
+
+-  Statistical bias refers to measurement or sampling errors that are systematic and produced by the measurement or sampling process. An important distinction should be made between errors due to random chance and errors due to bias. 
+-  Bias comes in different forms, and may be observable or invisible. When a result does suggest bias, it is often an indicator that a statistical or machine learning model has been misspecified, or an important variable left out.
+-  Selection bias refers to the practice of selectively choosing data consciously or unconsciously in a way that leads to a conclusion that is misleading or ephemeral.  It is sometimes referred to as the selection effect.
+-  Sampling bias is systematic error due to a non-random sample of a population, causing some members of the population to be less likely to be included than others, resulting in a biased sample, defined as a statistical sample of a population in which all participants are not equally balanced or objectively represented.
+-  A distinction of sampling bias (albeit not a universally accepted one) is that it undermines the external validity of a test (the ability of its results to be generalized to the rest of the population), while selection bias mainly addresses internal validity for differences or similarities found in the sample at hand. 
+-  In this sense, errors occurring in the process of gathering the sample or cohort cause sampling bias, while errors in any process thereafter cause selection bias.
+- Ways to avoid bias:
+
+        1. Random Sampling
+        2. Stratified sampling
