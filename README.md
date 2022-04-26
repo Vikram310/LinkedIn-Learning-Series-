@@ -107,7 +107,7 @@
 
 [**Day 7**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6924599968301285376-AfaA?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
-** 💡 Normal Distribution**:
+**💡 Normal Distribution:**:
 
 - The normal distribution, also known as the Gaussian distribution, is the most important probability distribution in statistics for independent, random variables. Most people recognize its familiar bell-shaped curve in statistical reports.
 - The normal distribution is a continuous probability distribution that is symmetrical around its mean, most of the observations cluster around the central peak, and the probabilities for values further away from the mean taper off equally in both directions. 
