@@ -104,3 +104,19 @@
 
         1. Random Sampling
         2. Stratified sampling
+
+[**Day 7**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6924599968301285376-AfaA?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+** 💡 Normal Distribution**:
+
+- The normal distribution, also known as the Gaussian distribution, is the most important probability distribution in statistics for independent, random variables. Most people recognize its familiar bell-shaped curve in statistical reports.
+- The normal distribution is a continuous probability distribution that is symmetrical around its mean, most of the observations cluster around the central peak, and the probabilities for values further away from the mean taper off equally in both directions. 
+- The skewness and kurtosis coefficients measure how different a given distribution is from a normal distribution.
+- The skewness measures the symmetry of a distribution. The normal distribution is symmetric and has a skewness of zero. The kurtosis statistic measures the thickness of the tail ends of a distribution in relation to the tails of the normal distribution.
+- Features:
+
+        1. Symmetric bell shape
+        2. Mean and median both are equal and located at the centre of distribution
+        3. 68% of data falls within first standard deviation of the mean 
+        4. 95% of data falls within second standard deviation of the mean
+        5. 99.7% of data falls within third standard deviation of the mean
