@@ -120,3 +120,20 @@
         3. 68% of data falls within first standard deviation of the mean 
         4. 95% of data falls within second standard deviation of the mean
         5. 99.7% of data falls within third standard deviation of the mean
+
+[**Day 8**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6924959876737630208-_AQT?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+**💡 Students t distribution:**
+
+- The t-distribution is a normally shaped distribution, except that it is a bit thicker and longer on the tails. It is used extensively in depicting distributions of sample statistics. 
+- Distributions of sample means are typically shaped like a t-distribution, and there is a family of t-distributions that differ depending on how large the sample is. The larger the sample, the more normally shaped the t-distribution becomes.
+- The t-distribution plays a role in a number of widely used statistical analyses, including Student's t-test for assessing the statistical significance of the difference between two sample means, the construction of confidence intervals for the difference between two population means, and in linear regression analysis.
+- Student's t-distribution also arises in the Bayesian analysis of data from a normal family.
+- The t-distribution is symmetric and bell-shaped, like the normal distribution. However, the t-distribution has heavier tails, meaning that it is more prone to producing values that fall far from its mean.
+- A number of statistics can be shown to have t-distributions for samples of moderate size under null hypotheses that are of interest, so that the t-distribution forms the basis for significance tests.
+- If X has a Student's t-distribution with degree of freedom "v" then X^2 has an F-distribution.
+- Student’s t Distribution is used when 
+
+        1. The sample size must be 30 or less than 30.
+        2. The population standard deviation(σ) is unknown.
+        3. The population distribution must be unimodal and skewed.
