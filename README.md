@@ -138,7 +138,7 @@
         2. The population standard deviation(σ) is unknown.
         3. The population distribution must be unimodal and skewed.
 
-[**Day 9**]()
+[**Day 9**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6925311311077662720--fk5?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
 **💡 Binomial distribution:**
 
