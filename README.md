@@ -137,3 +137,27 @@
         1. The sample size must be 30 or less than 30.
         2. The population standard deviation(σ) is unknown.
         3. The population distribution must be unimodal and skewed.
+
+[**Day 9**]()
+
+**💡 Binomial distribution:**
+
+- Binomial Distribution has an important place in analytics, since they are often the culmination of a decision or other process such as yes/no and so on. The distribution is obtained by performing a number of Bernoulli trials.
+- The binomial distribution is the frequency distribution of the number of successes (x) in a given number of trials (n) with specified probability (p) of success in each trial.
+- It must meet the following 3 criteria:
+
+        1. Number of observations or trials is fixed, i.e., you can only figure out the probability of something happening if you do it a certain number of times.
+        2. Each observation or trial is independent. In other words, none of your trials have an effect on the probability of the next trial.
+        3. The probability of success (tails, heads, fail or pass) is exactly the same from one trial to another.
+
+**💡 Chi Square distribution:**
+
+- An important idea in statistics is departure from expectation, especially with respect to category counts. Expectation is defined loosely as “nothing unusual or of note in the data”. This is also termed as "null hypothesis" or "null test".
+- The chi-square statistic is a measure of the extent to which a set of observed values “fits” a specified distribution (a “goodness-of-fit” test). It is useful for determining whether multiple treatments (an “A/B/C... test”) differ from one another in their effects.
+-  It has many uses:
+
+        1. Confidence interval estimation for a population standard deviation of a normal distribution from a sample standard deviation 
+        2. Independence of two criteria of classification of qualitative variables. 
+        3. Relationships between categorical variables (contingency tables).
+        4. Tests of deviations of differences between expected and observed frequencies (one-way tables).
+        5. The chi-square test (a goodness of fit test).
