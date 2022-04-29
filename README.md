@@ -161,3 +161,19 @@
         3. Relationships between categorical variables (contingency tables).
         4. Tests of deviations of differences between expected and observed frequencies (one-way tables).
         5. The chi-square test (a goodness of fit test).
+
+[**Day 10**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6925683780011663360--40o?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+**💡 Poisson distribution:**
+
+- Poisson distribution tells us the distribution of events per unit of time or space when we sample many such units. It is useful when addressing queuing questions such as “How much capacity do we need to be 95% sure of fully processing the internet traffic that arrives on a server in any five- second period?”
+- The key parameter in a Poisson distribution is λ, or lambda. This is the mean number of events that occurs in a specified interval of time or space. The variance for a Poisson distribution is also λ.
+- We use stats.poisson.rvs function from SciPy library and it is used as stats.poisson.rvs(λ, size=100)
+- It is used for independent events which occur at a constant rate within a given interval of time. The Poisson distribution is a discrete function, meaning that the event can only be measured as occurring or not as occurring, meaning the variable can only be measured in whole numbers.
+- If the mean is large, then the Poisson distribution is approximately a normal distribution.
+
+**💡 Exponential distribution:**
+
+- The exponential distribution (also called the negative exponential distribution) is a probability distribution that describes time between events in a Poisson process.
+- The exponential distribution is mostly used for testing product reliability. It’s also an important distribution for building continuous-time Markov chains.
+- A key assumption in any simulation study for either the Poisson or exponential distribution is that the rate, λ, remains constant over the period being considered.
