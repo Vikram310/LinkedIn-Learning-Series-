@@ -177,3 +177,25 @@
 - The exponential distribution (also called the negative exponential distribution) is a probability distribution that describes time between events in a Poisson process.
 - The exponential distribution is mostly used for testing product reliability. It’s also an important distribution for building continuous-time Markov chains.
 - A key assumption in any simulation study for either the Poisson or exponential distribution is that the rate, λ, remains constant over the period being considered.
+
+[**Day 11**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6926775175564730368-r7F0?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+**💡 A/B Testing:**
+
+-  An A/B Test is a randomized experiment containing two groups, A & B that receive different experiences. Within an A/B Test, we look to understand and measure the response of each group. 
+- Designing our experiment, which is the first step, involves 2 main steps that are Formulating a hypothesis and choosing the variables
+
+        Null Hypothesis: The null hypothesis is the one that states that sample observations result purely from chance.
+        Alternative Hypothesis: The alternative hypothesis challenges the null hypothesis and is basically a hypothesis that the researcher believes to be true. The alternative hypothesis is what you might hope that your A/B test will prove to be true.
+- Once we are ready with our null and alternative hypothesis, the next step is to decide the group of customers that will participate in the test. Here we have two groups – The Control group, and the Test (variant) group.
+- The Control Group is the one that will receive newsletter X and the Test Group is the one that will receive newsletter Y.
+- Randomly selecting the sample from the population is called random sampling. It is a technique where each sample in a population has an equal chance of being chosen.
+- Random sampling is important in hypothesis testing because it eliminates sampling bias, and it’s important to eliminate bias because you want the results of your A/B test to be representative of the entire population rather than the sample itself.
+- Another important aspect we must take care of is the Sample size. It is required that we determine the minimum sample size for our A/B test before conducting it so that we can eliminate under coverage bias. It is the bias from sampling too few observations.
+-The larger the sample size, the more precise our estimates (i.e. the smaller our confidence intervals), the higher the chance to detect a difference in the two groups, if present.
+
+- The sample size we need is estimated through power analysis and it depends on few factors:
+
+        Power of the test (1 — β) — This represents the probability of finding a statistical difference between the groups in our test when a difference is actually present. This is usually set at 0.8 by convention
+        Alpha value (α) — The critical value we set earlier to 0.05
+        Effect size — How big of a difference we expect there to be between the conversion rates
