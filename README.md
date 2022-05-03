@@ -199,3 +199,27 @@
         Power of the test (1 — β) — This represents the probability of finding a statistical difference between the groups in our test when a difference is actually present. This is usually set at 0.8 by convention
         Alpha value (α) — The critical value we set earlier to 0.05
         Effect size — How big of a difference we expect there to be between the conversion rates
+
+[**Day 12**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6927132601740656640-C0mG?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+**💡 A/B Testing:**
+
+-  • As we discussed yesterday that first steps of A/B testing are 
+
+        1. Designing our experiment
+        2. Collecting and preparing the data
+- After collecting the data, we need to run some basic statistics to get an idea of the sample, we prepared. 
+- One way to perform the test is to calculate daily conversion rates for both the treatment and the control groups. Since the conversion rate in a group on a certain day represents a single data point, the sample size is actually the number of days. 
+- Thus, we will be testing the difference between the mean of daily conversion rates in each group across the testing period.
+- Now, the main question is – Can we conclude from here that the Test group is working better than the control group? The answer to this is a simple No! For rejecting our null hypothesis we have to prove the Statistical significance of our test.
+- There are two types of errors that can occur in hypothesis testing:
+
+        1. Type I error: We reject the null hypothesis when it is true. That is we accept the variant B when it is not performing better than A    
+        2. Type II error: We failed to reject the null hypothesis when it is false. It means we conclude variant B is not good when it performs better than A
+
+- To avoid these errors we must calculate the statistical significance of our test.  An experiment is considered to be statistically significant when we have enough evidence to prove that the result we see in the sample also exists in the population.The two–sample t–test is one of the most commonly used hypothesis tests. It is applied to compare whether the average difference between the two groups.
+- To understand the statistical significance, we must be familiar with a few terms:
+
+        1. Significance level (alpha): The significance level, also denoted as alpha or α, is the probability of rejecting the null hypothesis when it is true. Generally, we use the significance value of 0.05
+        2. P-Value: It is the probability that the difference between the two values is just because of random chance. P-value is evidence against the null hypothesis. The smaller the p-value stronger the chances to reject the H0. For the significance level of 0.05, if the p-value is lesser than it hence we can reject the null hypothesis
+        3.Confidence interval: The confidence interval is an observed range in which a given percentage of test outcomes fall. We manually select our desired confidence level at the beginning of our test. Generally, we take a 95% confidence interval
