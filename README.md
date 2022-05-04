@@ -223,3 +223,32 @@
         1. Significance level (alpha): The significance level, also denoted as alpha or α, is the probability of rejecting the null hypothesis when it is true. Generally, we use the significance value of 0.05
         2. P-Value: It is the probability that the difference between the two values is just because of random chance. P-value is evidence against the null hypothesis. The smaller the p-value stronger the chances to reject the H0. For the significance level of 0.05, if the p-value is lesser than it hence we can reject the null hypothesis
         3.Confidence interval: The confidence interval is an observed range in which a given percentage of test outcomes fall. We manually select our desired confidence level at the beginning of our test. Generally, we take a 95% confidence interval
+
+
+[**Day 13**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6927493777951444992-SfgB?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+**💡 Z-test:**
+
+- Z-test is a statistical method to determine whether the distribution of the test statistics can be approximated by a normal distribution.It is used to determine whether two population means are different when the variances are known and the sample size is large.
+
+-Z-test is used only if data satisfies the following conditions:
+
+    1. The sample size should be greater than 30. Otherwise, we need to use t-test
+    2. Samples should be drawn at random from the population.
+    3. The standard deviation of the population should be known and samples that are drawn from the population should be independent of each other.
+
+- Steps to perform z-test:
+
+        1 . Determine the null and alternate hypothesis (most important step)
+        2. Determine the level of significance (∝).
+        3. Find the critical value of z in the z-test and calculate the z-test statistics.
+
+- Z-test is of 3 types:
+
+        1. Left-tailed Test: In this test, our region of rejection is located to the extreme left of the distribution. Here our null hypothesis is that the claimed value is less than or equal to the mean population value.
+
+        2. Right-tailed Test: In this test, our region of rejection is located to the extreme right of the distribution. Here our null hypothesis is that the claimed value is less than or equal to the mean population value.
+
+        3. Two-tailed test: In this test, our region of rejection is located to both extremes of the distribution. Here our null hypothesis is that the claimed value is equal to the mean population value.
+
+- For implementing z-test in python, we import ztest from "statsmodels.stats.weightstats"
