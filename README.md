@@ -252,3 +252,36 @@
         3. Two-tailed test: In this test, our region of rejection is located to both extremes of the distribution. Here our null hypothesis is that the claimed value is equal to the mean population value.
 
 - For implementing z-test in python, we import ztest from "statsmodels.stats.weightstats"
+
+[**Day 14**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6927862763176226816-Hmpt?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+** T-test:**
+
+- A t-test is a type of inferential statistic used to determine if there is a significant difference between the means of two groups, which may be related in certain features.
+- Calculating a t-test requires three key data values. They include the difference between the mean values from each data set, the standard deviation of each group, and the number of data values of each group.
+
+        • If t-value is large -> the two groups belong to different groups.
+        • If t-value is small -> the two groups belong to same group.
+
+- T-test Assumptions:
+
+        1. The scale of data applied to the data collected follows a continuous or ordinal scale.
+        2. The data when plotted, should result in a normal distribution, bell shaped distribution curve.
+        3. The homogeneity of variance. Homogeneous, or equal, variance exists when the standard deviations of samples are approximately equal.
+
+-  T-test is of 3 types, which are categorized as dependent and independent tests.
+
+- 1. Independent samples t-test:
+
+        It is used to find out if the differences found between two groups is actually significant or just a random occurrence.
+        We can use this when the population mean or standard deviation is unknown, or two samples are separate/independent.
+
+- 2. Paired sample t-test:
+
+        It is used to find out if the difference in the mean of two samples is 0. The test is done on dependent samples, usually focusing on a particular group of people or thing.
+        We can use this when two similar samples are given or the dependent variable is continuous or the observations are independent of one another
+
+- 3. One sample t-test:
+
+        • One sample t-test is one of the widely used t-tests for comparison of the sample mean of the data to a particularly given value. Used for comparing the sample mean to the true/population mean.
+        We can use this when sample size is small (<30).
