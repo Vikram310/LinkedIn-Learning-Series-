@@ -285,3 +285,43 @@
 
         • One sample t-test is one of the widely used t-tests for comparison of the sample mean of the data to a particularly given value. Used for comparing the sample mean to the true/population mean.
         We can use this when sample size is small (<30).
+
+[**Day 15**]()
+
+**Chi Sqaure Test: **
+
+- The Pearson’s Chi-Square statistical hypothesis is a test for independence between categorical variables.
+
+- A chi-square statistic is one way to show a relationship between two categorical variables. In statistics, there are two types of variables: numerical (countable) variables and non-numerical (categorical) variables. 
+
+- The chi-squared statistic is a single number that tells you how much difference exists between your observed counts and the counts you would expect if there were no relationship at all in the population.
+
+- If you have a single measurement variable, you use a Chi-square goodness of fit test. If you have two measurement variables, you use a Chi-square test of independence. There are other Chi-square tests, but these two are the most common.
+
+- Chi-square goodness of fit test is used when:
+
+        1. Number of variables are one.
+        2. Purpose is to Decide if one variable is likely to come from a given distribution or not
+        3. Degree of freedom is equal to Number of categories minus 1
+
+- Chi-square test of independence is used when: 
+
+        1. When we have two variables. 
+        2. purpose is to decide if two variables might be related or not
+        3. Degree of freedom is equal to Number of categories for first variable minus 1, multiplied by number of categories for second variable minus 1
+
+- For implementing in python, we use contingency table(also called as cross tab) which is used in statistics to summarise the relationship between several categorical variables.
+
+- To verify the Hypothesis whether to reject Null Hypothesis(H0) or not, we have two methods:
+
+1. p-value:
+             
+        - We define a significance factor to determine whether the relation between the variables is of considerable significance. Generally a significance factor or alpha value of 0.05 is chosen. 
+
+        - A lower alpha value is chosen in cases where we expect more precision. If the p-value for the test comes out to be strictly greater than the alpha value, then H0 holds true.
+
+2. chi-square value:
+
+        If our calculated value of chi-square is less or equal to the tabular(also called critical) value of chi-square, then H0 holds true.
+
+- The chi2_contingency() function of scipy.stats module takes as input, the contingency table in 2d array format. It returns a tuple containing test statistics, the p-value, degrees of freedom and expected table in that order.
