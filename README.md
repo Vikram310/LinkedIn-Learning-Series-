@@ -255,7 +255,7 @@
 
 [**Day 14**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6927862763176226816-Hmpt?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
-** T-test:**
+**💡 T-test:**
 
 - A t-test is a type of inferential statistic used to determine if there is a significant difference between the means of two groups, which may be related in certain features.
 - Calculating a t-test requires three key data values. They include the difference between the mean values from each data set, the standard deviation of each group, and the number of data values of each group.
@@ -288,7 +288,7 @@
 
 [**Day 15**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6928217037882220544-QOkP)
 
-**Chi Sqaure Test: **
+**💡Chi Sqaure Test:**
 
 - The Pearson’s Chi-Square statistical hypothesis is a test for independence between categorical variables.
 
