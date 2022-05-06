@@ -286,7 +286,7 @@
         • One sample t-test is one of the widely used t-tests for comparison of the sample mean of the data to a particularly given value. Used for comparing the sample mean to the true/population mean.
         We can use this when sample size is small (<30).
 
-[**Day 15**]()
+[**Day 15**](https://www.linkedin.com/posts/vikram--krishna_66daysofdata-datawithvikram-datascience-activity-6928217037882220544-QOkP)
 
 **Chi Sqaure Test: **
 
